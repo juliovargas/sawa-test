@@ -1,0 +1,16 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<!-- <mirrors>
+		<mirror>
+			<id>repo-cgj</id>
+			<name>Repo por defecto del Artifactory de la Consejeria</name>
+			<url>http://ws068.juntadeandalucia.es/artifactory/repo</url>
+			<mirrorOf>*</mirrorOf>
+		</mirror>
+	</mirrors> -->
+
+
+</settings>

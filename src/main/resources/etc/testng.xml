@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite SAWA" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Test Camino Critico">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="es.ja.cgj.webdriver.scripts.SAWA_VOL_EV_Representante">
+				<methods>
+					<include name="testValidacionCreacionFormularioSAWA" />
+				  	<include name="testCrearFormulario_OK" />
+					<include name="testFirmaRepresentante" />
+				</methods>
+			</class>
+			<class name="es.ja.cgj.webdriver.scripts.SAWA_VOL_EV_Secretario">
+				<methods>
+					<include name="testFirmaSecretario" />
+					<include name="testPresentarSolicitud" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
